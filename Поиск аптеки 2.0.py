@@ -6,13 +6,6 @@ from io import BytesIO
 
 GEOCODE_API_SERVER = "http://geocode-maps.yandex.ru/1.x/"
 ORGANIZATION_SEARCH_API_SERVER = "https://search-maps.yandex.ru/v1/"
-"""{
-        "apikey": "12ecf2f5-4503-40ec-bd7d-fd704013dd32",
-        "text": object_adress(name),
-        "lang": "ru_RU",
-        "type": "biz",
-        "spn": "5,5",
-        "ll": name}).json()"""
 MAP_API_SERVER = "http://static-maps.yandex.ru/1.x/"
 
 name = " ".join(sys.argv[1:])
