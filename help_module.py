@@ -27,3 +27,4 @@ def get_spn_object(name):
                       0]["GeoObject"]["boundedBy"]["Envelope"].values()))
     spn = abs(coords[0][0] - coords[1][0]), abs(coords[0][1] - coords[1][1])
     return spn
+    
